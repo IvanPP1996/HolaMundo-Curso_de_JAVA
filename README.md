@@ -43,8 +43,34 @@ Objeto: Los controles que se han hecho con base en ese control (siempre se escri
     1. Metodos (mover jostick, Prender control): Acciones de ese objeto.
 
 
-**Clase principal**
+**Clase principal e instancia de objeto (objeto)**
 ```
     Main
         static () {};
 ```
+
+## Variables
+
+#### **Numeros:**
+
+1. Numeros enteros
+    - **int**   <- ( -2.000.000.000 - 2.000.000.000 )                   <- 4bytes
+    - **byte**  <- ( -128 - 127 )                                       <- 1byte
+    - **short** <- ( -32768 - 32767 )                                   <- 2bytes
+    - **long**  <- ( -90.000.000.000.000.000 - 90.000.000.000.000.000 ) <- 8bytes
+
+1. Numeros decimales
+    - **float**
+    - **double** <- Numeros mas grandes
+
+#### **Booleanos:**
+
+- **Boolean** <- True
+- **Boolean** <- False
+
+#### **Caracteres:**
+
+- **char** <- Una sola letra ejm. 'b'
+- **string** <- Una frase ejm. "Hola mundo"
+
+
